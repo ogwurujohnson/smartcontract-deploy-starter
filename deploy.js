@@ -16,7 +16,7 @@ deployContract(web3, contract, sender)
     })
 
 function compileContract() {
-    var input = {
+    let input = {
         language: 'Solidity',
         sources: {
             'Voter': {
