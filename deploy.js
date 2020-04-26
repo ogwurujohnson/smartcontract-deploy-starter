@@ -5,7 +5,7 @@ let path = require('path');
 
 let contract = compileContract();
 let web3 = createWeb3();
-let sender = '<address>';
+let sender = '0xcd2be33ec4ecb8ec02b8cad2434f20d3e3b3e9b3';
 
 deployContract(web3, contract, sender)
     .then(() => {
